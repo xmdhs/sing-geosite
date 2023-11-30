@@ -238,11 +238,11 @@ func release(source string, ruleSetOutput string, downloadFile string) error {
 }
 
 func main() {
-	err := release("v2fly/domain-list-community", "rule-set", "dlc.db")
+	err := release("v2fly/domain-list-community", "rule-set", "dlc.dat")
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = release("Loyalsoldier/v2ray-rules-dat", "rule-set-Loyalsoldier", "geosite.db")
+	err = release("Loyalsoldier/v2ray-rules-dat", "rule-set-Loyalsoldier", "geosite.dat")
 	if err != nil {
 		log.Fatal(err)
 	}
