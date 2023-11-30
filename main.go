@@ -12,6 +12,7 @@ import (
 	"strings"
 
 	"github.com/sagernet/sing-box/common/geosite"
+	"github.com/sagernet/sing-box/common/srs"
 	C "github.com/sagernet/sing-box/constant"
 	"github.com/sagernet/sing-box/option"
 	"github.com/sagernet/sing/common"
@@ -216,6 +217,20 @@ func generate(release *github.RepositoryRelease, ruleSetOutput string, downloadF
 			return err
 		}
 		outputRuleSet.Close()
+
+		srsPathsrs, _ := filepath.Abs(filepath.Join(ruleSetOutput, "geosite-"+code+".srs"))
+		os.Stderr.WriteString("write " + srsPath + "\n")
+		outputRuleSetsrs, err := os.Create(srsPathsrs)
+		if err != nil {
+			return err
+		}
+		err = srs.Write(outputRuleSetsrs, plainRuleSet)
+		if err != nil {
+			outputRuleSetsrs.Close()
+			return err
+		}
+		outputRuleSetsrs.Close()
+
 	}
 	return nil
 }
