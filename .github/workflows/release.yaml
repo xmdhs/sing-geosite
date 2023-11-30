@@ -26,24 +26,9 @@ jobs:
           go run -v .
       - name: Release rule sets
         if: steps.build.outputs.skip != 'true'
-        run: .github/release-rule-set.sh
+        run: .github/release-rule-set.sh rule-set
+      - name: Release rule set Loyalsoldier
+        if: steps.build.outputs.skip != 'true'
+        run: .github/release-rule-set.sh rule-set-Loyalsoldier
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Generate sha256 hash
-        if: steps.build.outputs.skip != 'true'
-        run: |
-          sha256sum geosite.db > geosite.db.sha256sum
-      - uses: dev-drprasad/delete-older-releases@v0.3.2
-        if: steps.build.outputs.skip != 'true'
-        with:
-          keep_latest: 10
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Release geosite
-        if: steps.build.outputs.skip != 'true'
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ steps.build.outputs.tag }}
-          files: |
-            geosite.db
-            sha256sum

@@ -4,6 +4,7 @@ import (
 	"context"
 	"crypto/sha256"
 	"encoding/hex"
+	"encoding/json"
 	"io"
 	"net/http"
 	"os"
@@ -11,7 +12,6 @@ import (
 	"strings"
 
 	"github.com/sagernet/sing-box/common/geosite"
-	"github.com/sagernet/sing-box/common/srs"
 	C "github.com/sagernet/sing-box/constant"
 	"github.com/sagernet/sing-box/option"
 	"github.com/sagernet/sing/common"
@@ -56,12 +56,12 @@ func get(downloadURL *string) ([]byte, error) {
 	return io.ReadAll(response.Body)
 }
 
-func download(release *github.RepositoryRelease) ([]byte, error) {
+func download(release *github.RepositoryRelease, downloadFile string) ([]byte, error) {
 	geositeAsset := common.Find(release.Assets, func(it *github.ReleaseAsset) bool {
-		return *it.Name == "dlc.dat"
+		return *it.Name == downloadFile
 	})
 	geositeChecksumAsset := common.Find(release.Assets, func(it *github.ReleaseAsset) bool {
-		return *it.Name == "dlc.dat.sha256sum"
+		return *it.Name == downloadFile+".sha256sum"
 	})
 	if geositeAsset == nil {
 		return nil, E.New("geosite asset not found in upstream release ", release.Name)
@@ -169,23 +169,12 @@ func parse(vGeositeData []byte) (map[string][]geosite.Item, error) {
 	return domainMap, nil
 }
 
-func generate(release *github.RepositoryRelease, output string, ruleSetOutput string) error {
-	outputFile, err := os.Create(output)
-	if err != nil {
-		return err
-	}
-	defer outputFile.Close()
-	vData, err := download(release)
+func generate(release *github.RepositoryRelease, ruleSetOutput string, downloadFile string) error {
+	vData, err := download(release, downloadFile)
 	if err != nil {
 		return err
 	}
 	domainMap, err := parse(vData)
-	if err != nil {
-		return err
-	}
-	outputPath, _ := filepath.Abs(output)
-	os.Stderr.WriteString("write " + outputPath + "\n")
-	err = geosite.Write(outputFile, domainMap)
 	if err != nil {
 		return err
 	}
@@ -208,13 +197,20 @@ func generate(release *github.RepositoryRelease, output string, ruleSetOutput st
 				DefaultOptions: headlessRule,
 			},
 		}
-		srsPath, _ := filepath.Abs(filepath.Join(ruleSetOutput, "geosite-"+code+".srs"))
+		plainRuleSetCompat := option.PlainRuleSetCompat{
+			Version: 1,
+			Options: plainRuleSet,
+		}
+		srsPath, _ := filepath.Abs(filepath.Join(ruleSetOutput, "geosite-"+code+".json"))
 		os.Stderr.WriteString("write " + srsPath + "\n")
 		outputRuleSet, err := os.Create(srsPath)
 		if err != nil {
 			return err
 		}
-		err = srs.Write(outputRuleSet, plainRuleSet)
+		jw := json.NewEncoder(outputRuleSet)
+		jw.SetEscapeHTML(false)
+		jw.SetIndent("", "    ")
+		err = jw.Encode(plainRuleSetCompat)
 		if err != nil {
 			outputRuleSet.Close()
 			return err
@@ -228,32 +224,27 @@ func setActionOutput(name string, content string) {
 	os.Stdout.WriteString("::set-output name=" + name + "::" + content + "\n")
 }
 
-func release(source string, destination string, output string, ruleSetOutput string) error {
+func release(source string, ruleSetOutput string, downloadFile string) error {
 	sourceRelease, err := fetch(source)
 	if err != nil {
 		return err
 	}
-	destinationRelease, err := fetch(destination)
-	if err != nil {
-		log.Warn("missing destination latest release")
-	} else {
-		if os.Getenv("NO_SKIP") != "true" && strings.Contains(*destinationRelease.Name, *sourceRelease.Name) {
-			log.Info("already latest")
-			setActionOutput("skip", "true")
-			return nil
-		}
-	}
-	err = generate(sourceRelease, output, ruleSetOutput)
+	err = generate(sourceRelease, ruleSetOutput, downloadFile)
 	if err != nil {
 		return err
 	}
-	setActionOutput("tag", *sourceRelease.Name)
+	setActionOutput("tag", *sourceRelease.TagName)
 	return nil
 }
 
 func main() {
-	err := release("v2fly/domain-list-community", "sagernet/sing-geosite", "geosite.db", "rule-set")
+	err := release("v2fly/domain-list-community", "rule-set", "dlc.db")
 	if err != nil {
 		log.Fatal(err)
 	}
+	err = release("Loyalsoldier/v2ray-rules-dat", "rule-set-Loyalsoldier", "geosite.db")
+	if err != nil {
+		log.Fatal(err)
+	}
+
 }
