@@ -27,6 +27,8 @@ jobs:
       - name: Release rule sets
         if: steps.build.outputs.skip != 'true'
         run: .github/release-rule-set.sh rule-set
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Release rule set Loyalsoldier
         if: steps.build.outputs.skip != 'true'
         run: .github/release-rule-set.sh rule-set-Loyalsoldier
