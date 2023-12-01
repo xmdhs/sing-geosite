@@ -22,6 +22,8 @@ jobs:
           go-version: ${{ steps.version.outputs.go_version }}
       - name: Build geosite
         id: build
+        env:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           go run -v .
       - name: Release rule sets
