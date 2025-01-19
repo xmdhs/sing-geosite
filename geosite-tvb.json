@@ -1,0 +1,37 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "mytvsuper.com",
+                "tvb.com",
+                "bigbigchannel.com.hk",
+                "bigbigshop.com",
+                "encoretvb.com",
+                "tvb.com.au",
+                "tvbanywhere.com",
+                "tvbanywhere.com.sg",
+                "tvbc.com.cn",
+                "tvbeventpower.com.hk",
+                "tvbusa.com",
+                "tvbweekly.com",
+                "tvmedia.net.au"
+            ],
+            "domain_suffix": [
+                ".mytvsuper.com",
+                ".tvb.com",
+                ".bigbigchannel.com.hk",
+                ".bigbigshop.com",
+                ".encoretvb.com",
+                ".tvb.com.au",
+                ".tvbanywhere.com",
+                ".tvbanywhere.com.sg",
+                ".tvbc.com.cn",
+                ".tvbeventpower.com.hk",
+                ".tvbusa.com",
+                ".tvbweekly.com",
+                ".tvmedia.net.au"
+            ]
+        }
+    ]
+}

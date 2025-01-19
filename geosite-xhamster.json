@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "collector.xhamster.com",
+                "xhamster.com",
+                "xhamster.desi",
+                "xhamster.xxx",
+                "xhamster18.com",
+                "xhamster18.desi",
+                "xhamsterlive.com",
+                "xhcdn.com",
+                "widgets.stripst.com"
+            ],
+            "domain_suffix": [
+                ".collector.xhamster.com",
+                ".xhamster.com",
+                ".xhamster.desi",
+                ".xhamster.xxx",
+                ".xhamster18.com",
+                ".xhamster18.desi",
+                ".xhamsterlive.com",
+                ".xhcdn.com"
+            ]
+        }
+    ]
+}

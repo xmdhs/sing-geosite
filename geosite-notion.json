@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "api.notion.com",
+                "img.notionusercontent.com",
+                "notion-static.com",
+                "notion.com",
+                "notion.new",
+                "notion.site",
+                "notion.so",
+                "notionusercontent.com"
+            ],
+            "domain_suffix": [
+                ".api.notion.com",
+                ".img.notionusercontent.com",
+                ".notion-static.com",
+                ".notion.com",
+                ".notion.new",
+                ".notion.site",
+                ".notion.so",
+                ".notionusercontent.com"
+            ]
+        }
+    ]
+}

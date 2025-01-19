@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "customercontrolpanel.de",
+                "netcup.com",
+                "netcup.de",
+                "netcup.eu",
+                "netcup.net",
+                "netcup-news.de",
+                "netcup-sonderangebote.de"
+            ],
+            "domain_suffix": [
+                ".customercontrolpanel.de",
+                ".netcup.com",
+                ".netcup.de",
+                ".netcup.eu",
+                ".netcup.net",
+                ".netcup-news.de",
+                ".netcup-sonderangebote.de"
+            ]
+        }
+    ]
+}

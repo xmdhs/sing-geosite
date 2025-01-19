@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "bilibili.tv",
+                "biliintl.com",
+                "dreamcast.hk",
+                "upos-hz-mirrorakam.akamaized.net",
+                "iq.com"
+            ],
+            "domain_suffix": [
+                ".bilibili.tv",
+                ".biliintl.com",
+                ".dreamcast.hk",
+                ".iq.com"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "pki.goog",
+                "pki-goog.l.google.com",
+                "c.pki.goog",
+                "i.pki.goog",
+                "o.pki.goog",
+                "publicca.googleapis.com",
+                "preprod-publicca.googleapis.com",
+                "clients1.google.com",
+                "pki.google.com",
+                "crl.pki.goog",
+                "crls.pki.goog",
+                "ocsp.pki.goog"
+            ],
+            "domain_suffix": ".pki.goog"
+        }
+    ]
+}

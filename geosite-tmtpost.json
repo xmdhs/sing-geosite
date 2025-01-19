@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "tmtpost.com",
+                "chaindd.com",
+                "72whys.com",
+                "checkzeit.com",
+                "tivitv.com",
+                "tigeek.net.cn",
+                "tmtsmartlife.com",
+                "tmtsmartrun.com"
+            ],
+            "domain_suffix": [
+                ".tmtpost.com",
+                ".chaindd.com",
+                ".72whys.com",
+                ".checkzeit.com",
+                ".tivitv.com",
+                ".tigeek.net.cn",
+                ".tmtsmartlife.com",
+                ".tmtsmartrun.com"
+            ]
+        }
+    ]
+}

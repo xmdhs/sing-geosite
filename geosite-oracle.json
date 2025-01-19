@@ -1,0 +1,45 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "ateam-oracle.com",
+                "bronto.com",
+                "covid19-rx.org",
+                "covid19rx.org",
+                "oracle.com",
+                "oraclecloud.com",
+                "oraclefoundation.org",
+                "oracleimg.com",
+                "oracleinfinity.io",
+                "sun.com",
+                "virtualbox.org",
+                "addthis.com",
+                "addthiscdn.com",
+                "addthisedge.com",
+                "java.com",
+                "java.net"
+            ],
+            "domain_suffix": [
+                ".oracle",
+                ".ateam-oracle.com",
+                ".bronto.com",
+                ".covid19-rx.org",
+                ".covid19rx.org",
+                ".oracle.com",
+                ".oraclecloud.com",
+                ".oraclefoundation.org",
+                ".oracleimg.com",
+                ".oracleinfinity.io",
+                ".sun.com",
+                ".virtualbox.org",
+                ".addthis.com",
+                ".addthiscdn.com",
+                ".addthisedge.com",
+                ".java",
+                ".java.com",
+                ".java.net"
+            ]
+        }
+    ]
+}

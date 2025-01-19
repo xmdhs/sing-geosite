@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "aiv-cdn.net",
+                "amazonprimevideo.cn",
+                "amazonprimevideo.com.cn",
+                "amazonprimevideos.com",
+                "amazonvideo.cc",
+                "amazonvideo.com",
+                "prime-video.com",
+                "primevideo.cc",
+                "primevideo.com",
+                "primevideo.info",
+                "primevideo.org",
+                "primevideo.tv"
+            ],
+            "domain_suffix": [
+                ".aiv-cdn.net",
+                ".amazonprimevideo.cn",
+                ".amazonprimevideo.com.cn",
+                ".amazonprimevideos.com",
+                ".amazonvideo.cc",
+                ".amazonvideo.com",
+                ".prime-video.com",
+                ".primevideo.cc",
+                ".primevideo.com",
+                ".primevideo.info",
+                ".primevideo.org",
+                ".primevideo.tv"
+            ]
+        }
+    ]
+}

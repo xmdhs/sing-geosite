@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "staticfile.net",
+                "staticfile.org",
+                "qbox.me",
+                "qiniu.com",
+                "qiniucdn.com",
+                "qiniudn.com",
+                "qiniudns.com",
+                "qiniup.com",
+                "qnsdk.com",
+                "qnssl.com"
+            ],
+            "domain_suffix": [
+                ".staticfile.net",
+                ".staticfile.org",
+                ".qbox.me",
+                ".qiniu.com",
+                ".qiniucdn.com",
+                ".qiniudn.com",
+                ".qiniudns.com",
+                ".qiniup.com",
+                ".qnsdk.com",
+                ".qnssl.com"
+            ]
+        }
+    ]
+}

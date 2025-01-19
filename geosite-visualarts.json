@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "abow.jp",
+                "angelbeats.jp",
+                "anigema.jp",
+                "charlotte-anime.jp",
+                "clannad-movie.jp",
+                "heaven-burns-red.com",
+                "kamisama-day.jp",
+                "kamisama-maeda-lab.com",
+                "koubaibu.jp",
+                "litbus-anime.com",
+                "product.co.jp",
+                "rewrite-anime.tv",
+                "visualarts.gr.jp",
+                "visual-arts.jp"
+            ],
+            "domain_suffix": [
+                ".abow.jp",
+                ".angelbeats.jp",
+                ".anigema.jp",
+                ".charlotte-anime.jp",
+                ".clannad-movie.jp",
+                ".heaven-burns-red.com",
+                ".kamisama-day.jp",
+                ".kamisama-maeda-lab.com",
+                ".koubaibu.jp",
+                ".litbus-anime.com",
+                ".product.co.jp",
+                ".rewrite-anime.tv",
+                ".visualarts.gr.jp",
+                ".visual-arts.jp"
+            ]
+        }
+    ]
+}

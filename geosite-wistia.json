@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "embedwistia-a.akamaihd.net",
+                "wistia.com",
+                "wistia.net"
+            ],
+            "domain_suffix": [
+                ".embedwistia-a.akamaihd.net",
+                ".wistia.com",
+                ".wistia.net"
+            ]
+        }
+    ]
+}

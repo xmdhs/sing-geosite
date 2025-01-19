@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "themoviedb.org",
+                "tmdb.org",
+                "tmdb-image-prod.b-cdn.net"
+            ],
+            "domain_suffix": [
+                ".themoviedb.org",
+                ".tmdb.org"
+            ]
+        }
+    ]
+}

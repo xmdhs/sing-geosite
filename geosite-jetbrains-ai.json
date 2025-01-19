@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "grazie.ai",
+                "grazie.aws.intellij.net",
+                "jetbrains.ai"
+            ],
+            "domain_suffix": [
+                ".grazie.ai",
+                ".grazie.aws.intellij.net",
+                ".jetbrains.ai"
+            ]
+        }
+    ]
+}

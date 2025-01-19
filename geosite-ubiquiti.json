@@ -1,0 +1,37 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "amplifi.com",
+                "amplifi.com.cn",
+                "frontrow.com.cn",
+                "frontrow.com",
+                "ubncloud.com",
+                "ubnt.com",
+                "ubnt.com.cn",
+                "ui.com",
+                "ui.com.cn",
+                "uisp.com",
+                "uum.com.cn",
+                "uwn.com",
+                "wifiman.com"
+            ],
+            "domain_suffix": [
+                ".amplifi.com",
+                ".amplifi.com.cn",
+                ".frontrow.com.cn",
+                ".frontrow.com",
+                ".ubncloud.com",
+                ".ubnt.com",
+                ".ubnt.com.cn",
+                ".ui.com",
+                ".ui.com.cn",
+                ".uisp.com",
+                ".uum.com.cn",
+                ".uwn.com",
+                ".wifiman.com"
+            ]
+        }
+    ]
+}

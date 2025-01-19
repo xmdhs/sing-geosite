@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "bizographics.com",
+                "l-0005.dc-msedge.net",
+                "l-0005.l-msedge.net",
+                "licdn.com",
+                "linkedin.at",
+                "linkedin.com",
+                "lnkd.in",
+                "licdn.cn",
+                "linkedin.cn",
+                "e122475.dscg.akamaiedge.net",
+                "licdn.cn.cdn20.com",
+                "linkedin.sc.omtrdc.net"
+            ],
+            "domain_suffix": [
+                ".bizographics.com",
+                ".l-0005.dc-msedge.net",
+                ".l-0005.l-msedge.net",
+                ".licdn.com",
+                ".linkedin.at",
+                ".linkedin.com",
+                ".lnkd.in",
+                ".licdn.cn",
+                ".linkedin.cn"
+            ]
+        }
+    ]
+}

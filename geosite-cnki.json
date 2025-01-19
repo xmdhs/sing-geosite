@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "cnki.com.cn",
+                "cnki.net",
+                "chndoi.org"
+            ],
+            "domain_suffix": [
+                ".cnki.com.cn",
+                ".cnki.net",
+                ".chndoi.org"
+            ]
+        }
+    ]
+}

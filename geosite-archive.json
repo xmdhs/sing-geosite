@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "4pcdn.org",
+                "4plebs.org",
+                "archive-it.org",
+                "archive.org",
+                "archive.ph",
+                "archive.today",
+                "openlibrary.org"
+            ],
+            "domain_suffix": [
+                ".4pcdn.org",
+                ".4plebs.org",
+                ".archive-it.org",
+                ".archive.org",
+                ".archive.ph",
+                ".archive.today",
+                ".openlibrary.org"
+            ]
+        }
+    ]
+}

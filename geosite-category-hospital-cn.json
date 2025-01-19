@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "fuwai.com",
+                "pkuh6.cn",
+                "puh3.net.cn",
+                "hospital.pku.edu.cn",
+                "ss.bjmu.edu.cn",
+                "yctdyy.com",
+                "smuszh.com"
+            ],
+            "domain_suffix": [
+                ".fuwai.com",
+                ".pkuh6.cn",
+                ".puh3.net.cn",
+                ".yctdyy.com",
+                ".smuszh.com"
+            ]
+        }
+    ]
+}

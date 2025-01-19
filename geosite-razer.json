@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "razer.com",
+                "razerapi.com",
+                "razerofficial.com",
+                "razersynapse.com",
+                "razersupport.com",
+                "razerzone.com",
+                "razerzone.jp",
+                "respawnbyrazer.com"
+            ],
+            "domain_suffix": [
+                ".razer.com",
+                ".razerapi.com",
+                ".razerofficial.com",
+                ".razersynapse.com",
+                ".razersupport.com",
+                ".razerzone.com",
+                ".razerzone.jp",
+                ".respawnbyrazer.com"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "tandf.co.uk",
+                "tandfonline.com",
+                "taylorandfrancis.com",
+                "taylorfrancis.com"
+            ],
+            "domain_suffix": [
+                ".tandf.co.uk",
+                ".tandfonline.com",
+                ".taylorandfrancis.com",
+                ".taylorfrancis.com"
+            ]
+        }
+    ]
+}
