@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": "ppy.sh",
+            "domain_suffix": ".ppy.sh"
+        }
+    ]
+}

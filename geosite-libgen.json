@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "gen.lib.rus.ec",
+                "libgen.fun",
+                "libgen.is",
+                "libgen.life",
+                "libgen.me",
+                "libgen.rs",
+                "libgen.st",
+                "library.lol"
+            ],
+            "domain_suffix": [
+                ".gen.lib.rus.ec",
+                ".libgen.fun",
+                ".libgen.is",
+                ".libgen.life",
+                ".libgen.me",
+                ".libgen.rs",
+                ".libgen.st",
+                ".library.lol"
+            ]
+        }
+    ]
+}

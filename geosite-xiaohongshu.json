@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "askdiandian.com",
+                "diandianlife.top",
+                "redelight.cn",
+                "rednote.com.my",
+                "rednote.com",
+                "rednotecdn.com",
+                "xhscdn.com",
+                "xhscdn.net",
+                "xhslink.com",
+                "xhsrcdn.com",
+                "xiaohongshu.com"
+            ],
+            "domain_suffix": [
+                ".askdiandian.com",
+                ".diandianlife.top",
+                ".redelight.cn",
+                ".rednote.com.my",
+                ".rednote.com",
+                ".rednotecdn.com",
+                ".xhscdn.com",
+                ".xhscdn.net",
+                ".xhslink.com",
+                ".xhsrcdn.com",
+                ".xiaohongshu.com"
+            ]
+        }
+    ]
+}

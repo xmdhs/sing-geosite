@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "aicdn.com",
+                "oncdp.com",
+                "upai.com",
+                "upaiyun.com",
+                "upcdn.net",
+                "upyun.com"
+            ],
+            "domain_suffix": [
+                ".aicdn.com",
+                ".oncdp.com",
+                ".upai.com",
+                ".upaiyun.com",
+                ".upcdn.net",
+                ".upyun.com"
+            ]
+        }
+    ]
+}

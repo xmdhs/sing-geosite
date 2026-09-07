@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "10099.com.cn",
+                "ahitv.com",
+                "cbn.cn",
+                "cqccn.com",
+                "gcable.com.cn",
+                "isxtv.com",
+                "sc96655.com",
+                "sdgdwljt.com"
+            ],
+            "domain_suffix": [
+                ".10099.com.cn",
+                ".ahitv.com",
+                ".cbn.cn",
+                ".cqccn.com",
+                ".gcable.com.cn",
+                ".isxtv.com",
+                ".sc96655.com",
+                ".sdgdwljt.com"
+            ]
+        }
+    ]
+}

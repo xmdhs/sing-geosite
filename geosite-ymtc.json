@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "ymtc.cn",
+                "ymtc.com",
+                "ymtc.com.cn"
+            ],
+            "domain_suffix": [
+                ".ymtc.cn",
+                ".ymtc.com",
+                ".ymtc.com.cn"
+            ]
+        }
+    ]
+}

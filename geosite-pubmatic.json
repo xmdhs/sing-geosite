@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "pubmatic.co.jp",
+                "pubmatic.com"
+            ],
+            "domain_suffix": [
+                ".pubmatic.co.jp",
+                ".pubmatic.com"
+            ]
+        }
+    ]
+}

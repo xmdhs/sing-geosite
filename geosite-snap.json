@@ -1,0 +1,28 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "sc-cdn.net",
+                "sc-gw.com",
+                "sc-static.net",
+                "snap-dev.net",
+                "snap.com",
+                "snapads.com",
+                "snapchat.com",
+                "snapkit.co",
+                "impala-media-production.s3.amazonaws.com"
+            ],
+            "domain_suffix": [
+                ".sc-cdn.net",
+                ".sc-gw.com",
+                ".sc-static.net",
+                ".snap-dev.net",
+                ".snap.com",
+                ".snapads.com",
+                ".snapchat.com",
+                ".snapkit.co"
+            ]
+        }
+    ]
+}
