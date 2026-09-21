@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "spacemail.com",
+                "spaceship.com"
+            ],
+            "domain_suffix": [
+                ".spacemail.com",
+                ".spaceship.com"
+            ]
+        }
+    ]
+}

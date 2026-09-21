@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "louisvuitton.cn",
+                "louisvuitton.com",
+                "lvcampaign.com"
+            ],
+            "domain_suffix": [
+                ".louisvuitton.cn",
+                ".louisvuitton.com",
+                ".lvcampaign.com"
+            ]
+        }
+    ]
+}

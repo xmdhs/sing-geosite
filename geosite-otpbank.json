@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "ckb.me",
+                "dskbank.bg",
+                "ipotekabank.uz",
+                "mobiasbanca.md",
+                "otpbank.al",
+                "otpbank.com.ua",
+                "otpbank.hu",
+                "otpbank.ru",
+                "otpbanka.hr",
+                "otpbanka.rs",
+                "otpbanka.si",
+                "otpgroup.info"
+            ],
+            "domain_suffix": [
+                ".ckb.me",
+                ".dskbank.bg",
+                ".ipotekabank.uz",
+                ".mobiasbanca.md",
+                ".otpbank.al",
+                ".otpbank.com.ua",
+                ".otpbank.hu",
+                ".otpbank.ru",
+                ".otpbanka.hr",
+                ".otpbanka.rs",
+                ".otpbanka.si",
+                ".otpgroup.info"
+            ]
+        }
+    ]
+}

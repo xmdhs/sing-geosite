@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "redd.it",
+                "reddit.app.link",
+                "reddit.com",
+                "reddit.map.fastly.net",
+                "redditblog.com",
+                "reddithelp.com",
+                "redditinc.com",
+                "redditmail.com",
+                "redditmedia.com",
+                "redditspace.com",
+                "redditstatic.com",
+                "redditstatus.com"
+            ],
+            "domain_suffix": [
+                ".redd.it",
+                ".reddit.app.link",
+                ".reddit.com",
+                ".reddit.map.fastly.net",
+                ".redditblog.com",
+                ".reddithelp.com",
+                ".redditinc.com",
+                ".redditmail.com",
+                ".redditmedia.com",
+                ".redditspace.com",
+                ".redditstatic.com",
+                ".redditstatus.com"
+            ]
+        }
+    ]
+}

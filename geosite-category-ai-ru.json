@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "aiesa.ru",
+                "alice.yandex.net",
+                "alice.yandex.ru",
+                "alicepro.yandex.ru",
+                "copymonkey.app",
+                "gerwin.io",
+                "giga.chat",
+                "gptunnel.ru",
+                "polza.ai",
+                "robotext.io",
+                "rugpt.io",
+                "tokenator.top"
+            ],
+            "domain_suffix": [
+                ".aiesa.ru",
+                ".alice.yandex.net",
+                ".alice.yandex.ru",
+                ".alicepro.yandex.ru",
+                ".copymonkey.app",
+                ".gerwin.io",
+                ".giga.chat",
+                ".gptunnel.ru",
+                ".polza.ai",
+                ".robotext.io",
+                ".rugpt.io",
+                ".tokenator.top"
+            ]
+        }
+    ]
+}

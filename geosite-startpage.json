@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "ixquick.com",
+                "startpage.com"
+            ],
+            "domain_suffix": [
+                ".ixquick.com",
+                ".startpage.com"
+            ]
+        }
+    ]
+}

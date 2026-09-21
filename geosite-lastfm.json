@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "last.fm",
+                "lastfm-img.freetls.fastly.net",
+                "lastfm.freetls.fastly.net",
+                "ws.audioscrobbler.com"
+            ],
+            "domain_suffix": ".last.fm"
+        }
+    ]
+}

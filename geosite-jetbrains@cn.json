@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "cdn.jetbrains.com",
+                "jetbrains.com.cn"
+            ],
+            "domain_suffix": [
+                ".cdn.jetbrains.com",
+                ".jetbrains.com.cn"
+            ]
+        }
+    ]
+}

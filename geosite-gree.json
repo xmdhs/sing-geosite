@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "gree.cn",
+                "gree.com",
+                "gree.com.cn",
+                "greeyun.com",
+                "kinghomechina.com",
+                "tosot.com.cn",
+                "zhlyen.com"
+            ],
+            "domain_suffix": [
+                ".gree.cn",
+                ".gree.com",
+                ".gree.com.cn",
+                ".greeyun.com",
+                ".kinghomechina.com",
+                ".tosot.com.cn",
+                ".zhlyen.com"
+            ]
+        }
+    ]
+}
