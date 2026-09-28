@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "crates.io",
+                "docs.rs",
+                "rust-lang.org",
+                "rustup.rs"
+            ],
+            "domain_suffix": [
+                ".crates.io",
+                ".docs.rs",
+                ".rust-lang.org",
+                ".rustup.rs"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "pki.symantec.com",
+                "symauth.com",
+                "symcb.com",
+                "symcd.com",
+                "ws.symantec.com"
+            ],
+            "domain_suffix": [
+                ".pki.symantec.com",
+                ".symauth.com",
+                ".symcb.com",
+                ".symcd.com",
+                ".ws.symantec.com"
+            ]
+        }
+    ]
+}
