@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "pingan.com",
+                "pingan.com.cn",
+                "pingan.com.hk",
+                "yqb.com"
+            ],
+            "domain_suffix": [
+                ".pingan.com",
+                ".pingan.com.cn",
+                ".pingan.com.hk",
+                ".yqb.com"
+            ]
+        }
+    ]
+}

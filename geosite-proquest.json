@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "proquest.com",
+                "serialssolutions.com"
+            ],
+            "domain_suffix": [
+                ".proquest.com",
+                ".serialssolutions.com"
+            ]
+        }
+    ]
+}

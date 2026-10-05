@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "famifun.com.tw",
+                "family.co.jp",
+                "family.com.tw",
+                "familymart.com.cn",
+                "familymart.com.my",
+                "familymart.com.ph",
+                "famima.vn"
+            ],
+            "domain_suffix": [
+                ".famifun.com.tw",
+                ".family.co.jp",
+                ".family.com.tw",
+                ".familymart.com.cn",
+                ".familymart.com.my",
+                ".familymart.com.ph",
+                ".famima.vn"
+            ]
+        }
+    ]
+}
