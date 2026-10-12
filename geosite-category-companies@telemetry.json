@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "cafe.github.com",
+                "collector.github.com",
+                "copilot-telemetry-service.githubusercontent.com",
+                "copilot-telemetry.githubusercontent.com",
+                "incoming-telemetry.thunderbird.net",
+                "incoming.telemetry.mozilla.org"
+            ],
+            "domain_suffix": [
+                ".cafe.github.com",
+                ".collector.github.com"
+            ]
+        }
+    ]
+}

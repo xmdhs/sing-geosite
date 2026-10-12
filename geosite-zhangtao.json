@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "accuratead.cn",
+                "dutils.com",
+                "hiaiabc.com",
+                "mob.com",
+                "mobsdks.com",
+                "sharesdk.cn",
+                "tec73.com",
+                "yksdks.com"
+            ],
+            "domain_suffix": [
+                ".accuratead.cn",
+                ".dutils.com",
+                ".hiaiabc.com",
+                ".mob.com",
+                ".mobsdks.com",
+                ".sharesdk.cn",
+                ".tec73.com",
+                ".yksdks.com"
+            ]
+        }
+    ]
+}
