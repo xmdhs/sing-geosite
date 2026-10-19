@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "subscene.com",
+                "i.jeded.com"
+            ],
+            "domain_suffix": ".subscene.com"
+        }
+    ]
+}

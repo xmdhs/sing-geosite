@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "alibabacloud.co.in",
+                "alibabacloud.com.au",
+                "alibabacloud.com.hk",
+                "alibabacloud.com.my",
+                "alibabacloud.com.sg",
+                "alibabacloud.com.tw",
+                "alibabacloud.com",
+                "alicloud.com",
+                "account-cn.alibabacloud.com",
+                "api.alibabacloud.com",
+                "cn.alibabacloud.com",
+                "status.alibabacloud.com"
+            ],
+            "domain_suffix": [
+                ".alibabacloud.co.in",
+                ".alibabacloud.com.au",
+                ".alibabacloud.com.hk",
+                ".alibabacloud.com.my",
+                ".alibabacloud.com.sg",
+                ".alibabacloud.com.tw",
+                ".alibabacloud.com",
+                ".alicloud.com"
+            ]
+        }
+    ]
+}

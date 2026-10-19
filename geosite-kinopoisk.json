@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "kinopoisk-ru.clstorage.net",
+                "kinopoisk.ru",
+                "kp.yandex.net",
+                "kp-config-smart-tv.akamaized.net",
+                "kp-configs-smart-tv.s3.eu-central-1.amazonaws.com"
+            ],
+            "domain_suffix": [
+                ".kinopoisk-ru.clstorage.net",
+                ".kinopoisk.ru",
+                ".kp.yandex.net"
+            ]
+        }
+    ]
+}

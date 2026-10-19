@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "openrec.tv",
+                "dqd0jw5gvbchn.cloudfront.net"
+            ],
+            "domain_suffix": ".openrec.tv"
+        }
+    ]
+}
