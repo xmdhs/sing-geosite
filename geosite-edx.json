@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "edx-cdn.org",
+                "edx.org"
+            ],
+            "domain_suffix": [
+                ".edx-cdn.org",
+                ".edx.org"
+            ]
+        }
+    ]
+}

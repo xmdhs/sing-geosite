@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "myradio.com.hk",
+                "myradio.hk"
+            ],
+            "domain_suffix": [
+                ".myradio.com.hk",
+                ".myradio.hk"
+            ]
+        }
+    ]
+}

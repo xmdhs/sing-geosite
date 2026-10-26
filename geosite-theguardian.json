@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "dev-guardianapis.com",
+                "dev-theguardian.com",
+                "gu-web.net",
+                "guardianapis.com",
+                "guardianapps.co.uk",
+                "guim.co.uk",
+                "guimcode.co.uk",
+                "theguardian.com",
+                "theguardiandns.com"
+            ],
+            "domain_suffix": [
+                ".dev-guardianapis.com",
+                ".dev-theguardian.com",
+                ".gu-web.net",
+                ".guardianapis.com",
+                ".guardianapps.co.uk",
+                ".guim.co.uk",
+                ".guimcode.co.uk",
+                ".theguardian.com",
+                ".theguardiandns.com"
+            ]
+        }
+    ]
+}

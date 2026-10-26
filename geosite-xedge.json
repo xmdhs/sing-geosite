@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "ganjiangvpn.com",
+                "glxcc.net",
+                "xedge.cc",
+                "xn0.cc"
+            ],
+            "domain_suffix": [
+                ".ganjiangvpn.com",
+                ".glxcc.net",
+                ".xedge.cc",
+                ".xn0.cc"
+            ]
+        }
+    ]
+}
