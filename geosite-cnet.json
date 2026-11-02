@@ -1,0 +1,21 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "cnet.co.kr",
+                "cnet.com",
+                "cnet.de",
+                "cnetfrance.fr",
+                "download.com"
+            ],
+            "domain_suffix": [
+                ".cnet.co.kr",
+                ".cnet.com",
+                ".cnet.de",
+                ".cnetfrance.fr",
+                ".download.com"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "morisawa.co.jp",
+                "typesquare.com"
+            ],
+            "domain_suffix": [
+                ".morisawa.co.jp",
+                ".typesquare.com"
+            ]
+        }
+    ]
+}

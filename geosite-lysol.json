@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "lizol.co.in",
+                "lysol.ca",
+                "lysol.cl",
+                "lysol.cn",
+                "lysol.co.cr",
+                "lysol.com",
+                "lysol.com.cn",
+                "lysol.com.mx",
+                "lysol.net"
+            ],
+            "domain_suffix": [
+                ".lizol.co.in",
+                ".lysol.ca",
+                ".lysol.cl",
+                ".lysol.cn",
+                ".lysol.co.cr",
+                ".lysol.com",
+                ".lysol.com.cn",
+                ".lysol.com.mx",
+                ".lysol.net"
+            ]
+        }
+    ]
+}

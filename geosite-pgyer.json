@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "frontjs.com",
+                "pgyer.com",
+                "tracup.com"
+            ],
+            "domain_suffix": [
+                ".frontjs.com",
+                ".pgyer.com",
+                ".tracup.com"
+            ]
+        }
+    ]
+}
