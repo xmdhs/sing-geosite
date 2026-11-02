@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "cloudflareinsights-cn.com",
+                "shuqistat.com",
+                "meitustat.com"
+            ],
+            "domain_suffix": [
+                ".cloudflareinsights-cn.com",
+                ".shuqistat.com",
+                ".meitustat.com"
+            ]
+        }
+    ]
+}
