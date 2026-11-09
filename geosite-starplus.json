@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "star.api.edge.bamgrid.com",
+                "star.connections.edge.bamgrid.com",
+                "star.content.edge.bamgrid.com",
+                "star.playback.edge.bamgrid.com",
+                "starott.com",
+                "starplus.com"
+            ],
+            "domain_suffix": [
+                ".star.api.edge.bamgrid.com",
+                ".star.connections.edge.bamgrid.com",
+                ".star.content.edge.bamgrid.com",
+                ".star.playback.edge.bamgrid.com",
+                ".starott.com",
+                ".starplus.com"
+            ]
+        }
+    ]
+}

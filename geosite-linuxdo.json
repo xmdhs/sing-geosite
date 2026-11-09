@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "ldstatic.com",
+                "linux.do"
+            ],
+            "domain_suffix": [
+                ".ldstatic.com",
+                ".linux.do"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "insights-collector.gog.com",
+                "kurogames-ads.com",
+                "log-upload-os.hoyoverse.com",
+                "log-upload.mihoyo.com"
+            ],
+            "domain_suffix": [
+                ".insights-collector.gog.com",
+                ".kurogames-ads.com",
+                ".log-upload-os.hoyoverse.com",
+                ".log-upload.mihoyo.com"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "esp32.com",
+                "esp8266.cn",
+                "esp8266.com.cn",
+                "esp8266.com",
+                "espressif.cn",
+                "espressif.com.cn",
+                "espressif.com"
+            ],
+            "domain_suffix": [
+                ".esp32.com",
+                ".esp8266.cn",
+                ".esp8266.com.cn",
+                ".esp8266.com",
+                ".espressif.cn",
+                ".espressif.com.cn",
+                ".espressif.com"
+            ]
+        }
+    ]
+}
