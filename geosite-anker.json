@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "anker-in.com",
+                "anker.com.cn",
+                "anker.com",
+                "ankersolix.com",
+                "ankerwork.cn",
+                "eufy.com",
+                "eufycn.com",
+                "eufylife.com",
+                "eufymake.com.cn",
+                "eufymake.com",
+                "soundcore.com.cn",
+                "soundcore.com"
+            ],
+            "domain_suffix": [
+                ".anker-in.com",
+                ".anker.com.cn",
+                ".anker.com",
+                ".ankersolix.com",
+                ".ankerwork.cn",
+                ".eufy.com",
+                ".eufycn.com",
+                ".eufylife.com",
+                ".eufymake.com.cn",
+                ".eufymake.com",
+                ".soundcore.com.cn",
+                ".soundcore.com"
+            ]
+        }
+    ]
+}

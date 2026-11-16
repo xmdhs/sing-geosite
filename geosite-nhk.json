@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "nhk.jp",
+                "nhk.or.jp",
+                "nhkworld.jp"
+            ],
+            "domain_suffix": [
+                ".nhk",
+                ".nhk.jp",
+                ".nhk.or.jp",
+                ".nhkworld.jp"
+            ]
+        }
+    ]
+}

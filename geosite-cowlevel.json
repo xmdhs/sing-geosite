@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "cdncl.net",
+                "cowlevel.net"
+            ],
+            "domain_suffix": [
+                ".cdncl.net",
+                ".cowlevel.net"
+            ]
+        }
+    ]
+}

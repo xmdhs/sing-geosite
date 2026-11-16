@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "cortexrpg.com",
+                "cursecdn.com",
+                "dndbeyond.com",
+                "fanatical.com",
+                "fandom.com",
+                "futhead.com",
+                "gamepedia.com",
+                "muthead.com",
+                "wikia.com",
+                "wikia.nocookie.net",
+                "wikia.org",
+                "fandom.zendesk.com"
+            ],
+            "domain_suffix": [
+                ".cortexrpg.com",
+                ".cursecdn.com",
+                ".dndbeyond.com",
+                ".fanatical.com",
+                ".fandom.com",
+                ".futhead.com",
+                ".gamepedia.com",
+                ".muthead.com",
+                ".wikia.com",
+                ".wikia.nocookie.net",
+                ".wikia.org"
+            ]
+        }
+    ]
+}

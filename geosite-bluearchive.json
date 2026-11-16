@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "bluearchive-cn.com",
+                "bluearchive.jp",
+                "bluearchive.nexon.com"
+            ],
+            "domain_suffix": [
+                ".bluearchive-cn.com",
+                ".bluearchive.jp",
+                ".bluearchive.nexon.com"
+            ]
+        }
+    ]
+}

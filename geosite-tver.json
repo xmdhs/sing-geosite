@@ -1,0 +1,21 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "dogatch.jp",
+                "gorin.jp",
+                "screens-lab.jp",
+                "tver.co.jp",
+                "tver.jp"
+            ],
+            "domain_suffix": [
+                ".dogatch.jp",
+                ".gorin.jp",
+                ".screens-lab.jp",
+                ".tver.co.jp",
+                ".tver.jp"
+            ]
+        }
+    ]
+}

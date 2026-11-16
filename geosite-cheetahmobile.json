@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "cheetahfun.com",
+                "cmcm.com",
+                "cmcmcdn.com",
+                "drivergenius.com",
+                "duba.com",
+                "duba.net",
+                "ijinshan.com",
+                "keniu.com",
+                "liebao.cn",
+                "yuanqidesk.com",
+                "zhhainiao.com"
+            ],
+            "domain_suffix": [
+                ".cheetahfun.com",
+                ".cmcm.com",
+                ".cmcmcdn.com",
+                ".drivergenius.com",
+                ".duba.com",
+                ".duba.net",
+                ".ijinshan.com",
+                ".keniu.com",
+                ".liebao.cn",
+                ".yuanqidesk.com",
+                ".zhhainiao.com"
+            ]
+        }
+    ]
+}

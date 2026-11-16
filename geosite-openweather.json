@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "openweather.co.uk",
+                "openweathermap.org"
+            ],
+            "domain_suffix": [
+                ".openweather.co.uk",
+                ".openweathermap.org"
+            ]
+        }
+    ]
+}
